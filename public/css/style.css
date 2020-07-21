@@ -25,3 +25,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.heading {
+    text-align: center;
+    margin: auto;
+}
+
+.listing {
+    text-align: center;
+}

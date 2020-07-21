@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h1 align="center">Add Restaurant</h1>
+<h1 class="heading">Add Student</h1>
 <div class="col-6">
     <form action="add" method="post">
         <div class="form-group">

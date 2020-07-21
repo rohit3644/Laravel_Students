@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<h1 align="center">List of Restaurants</h1>
+<h1 class="heading">List of Students</h1>
 @if(Session::get('Status'))
 
 <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -36,5 +36,5 @@
     </tbody>
 </table>
 
-<a class="btn btn-success" href="/add" role="button">Add Restaurant</a>
+<a class="btn btn-success" href="/add" role="button">Add Student</a>
 @endsection
