@@ -7,16 +7,16 @@
         <div class="form-group">
             <input type="hidden" name="id" value="{{$data->id}}">
             <label for="exampleInputEmail1">Name</label>
-            <input type="text" class="form-control" name="name" value="{{$data->name}}">
+            <input type="text" class="form-control" name="name" value="{{$data->name}}" required>
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" name="email" value="{{$data->email}}">
+            <input type="email" class="form-control" name="email" value="{{$data->email}}" required>
             <small class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Address</label>
-            <input type="text" class="form-control" name="address" value="{{$data->address}}">
+            <input type="text" class="form-control" name="address" value="{{$data->address}}" required>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
         @csrf
