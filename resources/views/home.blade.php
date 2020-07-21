@@ -4,5 +4,5 @@
 <h1 class="heading">
     STUDENTS CRUD OPERATION
 </h1>
-<div class="listing">Click here for students listing <a href="/list">List</a></div>
+<div class="listing">Click <a href="/list">here</a> for students listing</div>
 @endsection
